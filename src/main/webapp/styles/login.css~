@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+	font-style: normal;
+	font-weight: 200;
+}
+
+#login_background {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	right: 0px;
+}
+
+#login_background img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+#login_register_form {
+	width: 26%;
+	position: absolute;
+	top: 16%;
+	left: 11%;
+	z-index: 1;
+	text-align: left;
+	font-size: medium;
+}
+#main_content #login_register_form #login_form {
+	width: 100%;
+	padding-left: 0px;
+
+}
+#main_content #introduction {
+	width: 37%;
+	position: absolute;
+	left: 51%;
+	top: 17%;
+	z-index: 1;
+	color: #FFFFFF;
+	right: 0px;
+}
+#main_content #introduction p {
+	font-size: large;
+
+}
+#login_form p {
+	width: 94%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#login_pw_label {
+	margin-left: 18px;
+	margin-right: 18px;
+
+}
+#login_form p #login_submit {
+	width: 90px;
+	margin-left: 64%;
+
+}
+#register_form p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+#register_pw_label {
+	margin-left: 18px;
+	margin-right: 19px;
+}
+#register_mail_label {
+	margin-left: 18px;
+	margin-right: 19px;
+}
+#register_name_label {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#login_register_form #textfield {
+
+}
+#register_form #register_submit {
+	width: 90px;
+	margin-left: 68%;
+}
+#login_form {
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	border-radius: 20px 21px 21px;
+}
+#register_form {
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+.field_class {
+	font-size: 10pt;
+	height: 20px;
+
+}
+.submit_button {
+	background-color: #0099FF;
+	color: #FFFFFF;
+	border-radius: 20px;
+	font-size: 15pt;
+}
+#login_mail_label {
+	margin-left: 18px;
+	margin-right: 18px;
+}

@@ -1,0 +1,1030 @@
+@charset "utf-8";
+body {
+	font-family:"Droid Sans Fallback";
+	font-style: normal;
+	font-weight: 400;
+}
+
+a{
+	text-decoration:none;
+}
+
+.radius_border{
+	border-radius: 30px
+}
+
+.index_body {
+	background-image: url(../images/cinema2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+.member_body {
+	background-image: url(../images/cinema1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+#header {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#logo {
+	width: 320px;
+	float: left;
+	margin-left: 26px;
+
+
+}
+#navigation {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-left:50px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: #FFFFFF;
+	font-size:16pt;
+}
+/* #navigation ul {
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#navigation a {
+	width: 16.6%;
+	display: block;
+	float: left;
+	text-align: center;
+	height: 50px;
+	color: #FFFFFF;
+	background-image: url(../images/nav_bg.png);
+	font-size: 20pt;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 50px;
+	font-weight: bold;
+} */
+
+#main_content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	margin-bottom: 18px;
+}
+#post_area {
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	margin-top:-28px;
+
+}
+
+#footer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	text-align: center;
+	font-color: #FFFFFF;
+}
+#member_nav {
+	width: 300px;
+	float: right;
+	background-color: #00FF99;
+}
+.clear {
+	clear: both;
+}
+#member_area {
+	width: 53%;
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #FFFFFF;
+	margin-right: 24px;
+}
+#message_area {
+	width: 30%;
+	float: right;
+	background-color: #FFFFFF;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#member_level div {
+	background-color: #FFFF00;
+	border-radius: 20px;
+	padding-left: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-top: 8px;
+
+
+}
+#secondary_content {
+
+}
+#member_title {
+	width: 30%;
+	font-size: xx-large;
+	text-align: center;
+	margin-top: 13px;
+	background-color: #00CCFF;
+	border-radius: 65px;
+}
+#message_area_title {
+	width: 50%;
+	font-size: xx-large;
+	text-align: center;
+	background-color: #00FF00;
+	border-radius: 20px;
+}
+#message_area .message {
+	background-color: #FF0000;
+}
+#message_area .message_timestamp {
+	text-align: right;
+}
+#film_this {
+	float: left;
+	width: 76%;
+}
+#film_this #film_area{
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 70px;
+
+}
+#film_this #film_activity {
+	background-color: #FFFFFF;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#join_activity button{
+	width:100px;	
+}
+
+#film_recommand_area {
+	float: right;
+	background-color: #FFFFFF;
+	width: 22%;
+}
+#film_this #film_area #film_post {
+	float: left;
+	padding-left: 6%;
+	padding-top: 3%;
+}
+.index_body #main_content #film_this #film_area #film_staff {
+	float: left;
+	width: 40%;
+	margin-top: 3%;
+	margin-left: 10%;
+	right: 10%;
+}
+#film_area #film_name {
+	margin-left: 6%;
+
+}
+#film_area #film_plot {
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 5%;
+}
+#film_area #film_pre_video {
+	margin-top: 5%;
+	margin-left: 6%;
+}
+#film_area .title {
+	color: #00CC33;
+}
+#film_pre_video #pre_video {
+	background-color: #000000;
+}
+#film_activity #join_activity {
+	margin-left: 6%;
+}
+#film_activity #activity_content {
+	margin-left: 6%;
+}
+#film_activity #submit_button {
+	margin-left: 6%;
+}
+#activity_content .radio{
+	margin-left: 5%;
+	font-size:17pt;
+}
+#film_activity .option {
+	margin-left: 5%;
+}
+#film_recommand_area #recommand_title {
+	text-align: center;
+
+}
+#film_recommand_area .recommand_film {
+	text-align: center;
+	margin-top: 20px;
+}
+#film_recommand_area .recommand_film figure figcaption {
+	font-size: large;
+}
+#film_recommand_area .recommand_film figure img   {
+
+}
+#film_recommand_area .recommand_film figure {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#filmlist_area .filmlist_film {
+	width: 45%;
+	float: left;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+#filmlist_area {
+	background-color: #FFFFFF;
+	width: 75%;
+	float: left;
+	padding-left: 5%;
+}
+#side_content {
+	width: 22%;
+	float: right;
+}
+#side_content #ranklist_area {
+	background-color: #FFFFFF;
+}
+#side_content #ontheway_area {
+	background-color: #FFFFFF;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+#filmlist_area .filmlist_film .filmlist_post {
+	width: 220px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #999999;
+}
+.filmlist_film .filmlist_post .filmlist_name a {
+	text-decoration: none;
+	color: #000000;
+
+}
+#ranklist_area {
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-bottom: 22px;
+}
+#ranklist_area #rank_title    {
+	font-size: x-large;
+	text-align: center;
+}
+#ranklist_area #rank_list {
+	font-size: 17pt;
+	padding-left: 0px;
+	padding-right: 2px;
+}
+#ranklist_area #rank_list ul    {
+	list-style-type: none;
+}
+.rank1 {
+	color: #FF0000;
+}
+.rank2 {
+	color: #00FF00;
+}
+.rank3 {
+	color: #0000FF;
+}
+#rank_list a {
+	text-decoration: none;
+	color: #000000;
+}
+#ontheway_area #ontheway_title {
+	text-align: center;
+	font-size: x-large;
+}
+#ontheway_list ul {
+	list-style-type: none;
+}
+#ontheway_list a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 17pt;
+}
+#ticket_area {
+	background-color: #FFFFFF;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+#film_selection {
+	float: left;
+}
+#ticket_area #ticket_area_content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ticket_area_content #film_post {
+	float: right;
+	background-color: #666666;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 220px;
+	height: 316px;
+
+
+}
+#ticket_area_content #film_post img  {
+	width: 200px;
+	height: 296px;
+}
+#film_name #film_name_select {
+
+}
+#film_selection #film_name {
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+#film_selection #film_date {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+#film_selection #film_session {
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+#film_session .session {
+	cursor: pointer;
+	font-size: 15pt;
+	line-height: 25pt;
+	margin-right: 10px;
+	display: block;
+	float: left;
+}
+#film_session a {
+
+}
+#film_session #session_list {
+	background-color: #FFFFFF;
+	width: 400px;
+	height: 90px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+#film_session #session_title {
+	font-size: 17pt;
+	margin-bottom: 5px;
+}
+#film_selection #film_seatNo {
+	margin-left: 50px;
+	margin-bottom: 40px;
+}
+#film_seatNo #seatNo_title {
+	font-size: 17pt;
+	margin-bottom: 30px;
+}
+#seatNo_table  {
+	text-align: center;
+	width: 500px;
+	height: 300px;
+	;
+	;
+	border: 0px solid black;
+	margin-left: 20px;
+}
+#seatNo_table .hide_td {
+	border: 0px solid black;
+}
+#seatNo_table .seatNo {
+	width: 50px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+#seatNo_table #screen_td{
+	font-size: 18pt;
+	border: 0px solid black;
+}
+#ticket_result th, #ticket_result td{
+	width: 200px;
+	text-align: center;
+}
+#ticket_result {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ticket_result_title {
+	font-size: 17pt;
+	margin-bottom: 10px;
+}
+#ticket_buy {
+	text-align: right;
+	margin-top: 10px;
+}
+#ticket_result #recharge {
+	text-align: right;
+	margin-top: 10px;
+}
+#film_plan_area {
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+#plan_date_area {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-top-color: #00FFCC;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}
+#plan_date_area .plan_date {
+	width: 15%;
+	float: left;
+	text-align: center;
+	font-size: 20pt;
+	cursor: pointer;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+#plan_list_area {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#plan_list_area .plan_item {
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+.plan_item .film_post {
+	width: 130px;
+	height: 192px;
+	float: left;
+}
+.plan_item .plan_detail {
+	float: left;
+	width: 60%;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.plan_item .plan_detail span {
+	display: block;
+	font-size: 15pt;
+	float: left;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+#member_navigation {
+	background-color: #FFFFFF;
+	width: 16%;
+	float: left;
+	text-align:center;
+	font-size:16pt;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:15px;
+	padding-right:15px;
+}
+#member_content {
+	background-color: #FFFFFF;
+	width: 83%;
+	float: right;
+}
+#member_navigation .member_nav_item {
+	font-size: 19pt;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+#member_content #member_info {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+#member_content #member_info_area{
+	text-align:left;
+	margin-top:20px;
+	width:60%;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:15pt;
+	margin-bottom:40px;
+}
+#member_content #member_content_title {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+#member_content #member_info div {
+	margin-bottom: 27px;
+	font-size: 17pt;
+}
+#member_state_title {
+	margin-left: 13%;
+	margin-top: 30px;
+}
+#member_state_table {
+	margin-left: 15%;
+	margin-bottom: 50px;
+}
+#member_state_table table {
+	border-collapse: collapse;
+}
+#member_detail_area #member_detail_title {
+	margin-left: 10%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#member_detail_area #member_detail_content {
+	margin-left: 15%;
+	font-size: 17pt;
+}
+#member_detail_content div {
+	margin-bottom: 20px;
+}
+#member_intersts_content {
+	margin-left: 5%;
+	margin-right: 30%;
+}
+#member_intersts_content span {
+	display: block;
+	float: left;
+	margin-right: 20px;
+
+}
+#member_intersts div {
+	margin-bottom: 0px;
+}
+#member_detail_content #save_area {
+	margin-top: -40px;
+	margin-right: 45%;
+	text-align: right;
+}
+#member_detail_content #save_area button {
+
+}
+#card_area #card_area_title {
+	margin-left: 30px;
+}
+#card_area #card_number {
+	margin-left: 25%;
+	font-size: 17pt;
+	margin-top: 30px;
+}
+#card_area #card_change a {
+	text-decoration: none;
+}
+#card_area #card_change {
+	margin-left: 25%;
+	margin-top: 10px;
+	font-size: 12pt;
+}
+#card_area #card_money {
+	margin-top: 40px;
+	margin-left: 25%;
+	font-size: 16pt;
+	width:400px;
+}
+#card_area #card_password {
+	margin-left: 25%;
+	font-size: 16pt;
+	width:400px;
+	margin-top: 20px;
+}
+#card_area #card_commit {
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+#point_area #point_area_title {
+	margin-left: 30px;
+}
+#point_area #points_available {
+	font-size: 17pt;
+	margin-left: 25%;
+	margin-top: 30px;
+}
+#point_area #points_to_change {
+	width:400px;
+	margin-left: 25%;
+	margin-top: 20px;
+	font-size: 17pt;
+}
+#point_area #money_available {
+	margin-left: 40%;
+	font-size: 12pt;
+	margin-top: 10px;
+}
+#point_area #point_commit {
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#recharge_area #point_area {
+	margin-bottom: 50px;
+}
+#records_area {
+/* 	height: 450px; */
+}
+#records_area #records_range {
+	margin-top: 30px;
+	font-size: 15pt;
+	text-align: center;
+}
+#records_area #records_range span {
+	margin-left: 20px;
+
+}
+#records_area #records_table {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 50px;
+	background-color: #FFFFFF;
+	padding-bottom: 50px;
+}
+#records_area #records_table table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+#member_level_area #current_level {
+	margin-top: 50px;
+	margin-left: 70px;
+	font-size: 18pt;
+}
+#current_level #level {
+	color: #FF0000;
+	font-size: 20pt;
+}
+#member_level_area #level_regulars {
+	margin-top: 50px;
+}
+#level_regulars table {
+	margin-left: 70px;
+	border-collapse: collapse;
+}
+#level_regulars table th {
+	font-size: 16pt;
+}
+#level_regulars table td {
+	font-size: 16pt;
+}
+#level_select .level_select_item {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 8%;
+}
+#member_level_area #level_select {
+	margin-top: 60px;
+	padding-bottom: 30px;
+}
+#level_select .level_title {
+	text-align: center;
+	font-size: 18pt;
+	background-color: #FEFFFA;
+	color: #FFFFFF;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	line-height: 26pt;
+}
+#level_select #level_1 .level_title{
+	background-color: #003399;
+}
+#level_select #level_2 .level_title {
+	background-color: #990000;
+}
+#level_select #level_3 .level_title {
+	background-color: #669900;
+}
+#level_select table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#level_select .level_description {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#level_select button {
+	width: 200px;
+}
+#level_select .level_footer {
+	height: 30px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#level_select #level_1 .level_footer {
+	background-color: #003399;
+}
+#level_select .level_select_button {
+	margin-bottom: 10px;
+	text-align: right;
+	padding-right: 20px;
+}
+#level_select #level_2 .level_footer {
+	background-color: #990000;
+}
+#level_select #level_3 .level_footer {
+	background-color: #669900;
+}
+#member_activity_area {
+	height: 450px;
+}
+#activity_film_title {
+	margin-left: 30px;
+}
+#activity_film_list {
+	background-color: #FFFFFF;
+}
+.activity_film .activity_film_post {
+	float: left;
+	margin-left: 20%;
+}
+.activity_film .activity_film_join {
+	float: left;
+	height: 20%;
+	margin-top: 23%;
+	margin-left: 10%;
+}
+.activity_film {
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}
+#server_nav {
+	background-color: #FFFFFF;
+	width: 16%;
+	float: left;
+	text-align:center;
+	font-size:16pt;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:15px;
+	padding-right:15px;
+}
+#server_content {
+	background-color: #FFFFFF;
+	float: right;
+	width: 83%;
+}
+#server_nav .server_nav_item {
+	height: 60px;
+	text-align: center;
+	font-size: 19pt;
+	line-height: 60px;
+
+}
+#pass_plan_area {
+	margin-top: 40px;
+	margin-left: 50px;
+}
+#pass_plan_area label {
+	font-size: 18pt;
+}
+#pass_plan_area .passed_plan_date {
+	background-color: #00FF33;
+	font-size: 18pt;
+}
+#wait_plan_area {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#wait_plan_area label {
+	font-size: 18pt;
+}
+#wait_plan_area .waited_plan_date {
+	background-color: #000099;
+	color: #FFFFFF;
+	font-size: 18pt;
+}
+#add_plan_button {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+#add_plan_button #add_new_plan {
+	width: 250px;
+	font-size: 17pt;
+}
+#add_plan_area {
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#date_select_area {
+	font-size: 15pt;
+}
+#plan_detail_select_area span {
+	font-size: 15pt;
+
+
+}
+#plan_detail_select_area {
+	margin-top: 20px;
+}
+#plan_detail_area {
+	margin-top: 30px;
+}
+#plan_detail_select_area #button {
+	width: 100px;
+	height: 30px;
+	font-size: 15pt;
+}
+#plan_add_button {
+	margin-top: 20px;
+	margin-left: 70%;
+	margin-bottom: 60px;
+}
+#new_plan_commit  {
+	width:150px;
+}
+#hide_bland_area {
+	background-color: #FFFFFF;
+	height: 400px;
+}
+#activity_film_select {
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 15pt;
+}
+#activity_film_select{
+	width:300px;
+}
+#activity_add {
+	margin-top: 20px;
+	margin-left: 100px;
+}
+#activity_add_button {
+	width: 150px;
+	font-size: 15pt;
+}
+#new_activity_area {
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+#new_activity_area .question_area {
+	font-size: 15pt;
+	margin-left: 40px;
+	width:400px;
+}
+#new_activity_commit {
+	margin-top: 20px;
+	margin-left: 42%;
+}
+#activity_commit_button {
+	width: 100px;
+}
+#member_id_search {
+	margin-top: 100px;
+}
+#member_info_area {
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+#member_id_text{
+	width:400px;
+	margin-left:200px;
+}
+#manager_nav {
+	background-color: #FFFFFF;
+	width: 16%;
+	float: left;
+	text-align:center;
+	font-size:16pt;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:15px;
+	padding-right:15px;
+}
+#manager_nav .manager_nav_item {
+	font-size: 19pt;
+	height: 60px;
+	line-height: 60px;
+}
+#manager_content {
+	background-color: #FFFFFF;
+	width: 83%;
+	float: right;
+}
+#plan_area {
+	margin-left: 50px;
+}
+#check_date_select_area {
+	width:200px;
+	font-size: 15pt;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+#check_area {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#check_area button {
+	width: 100px;
+}
+#member_location{
+	width:400px;
+}
+#member_bankcard{
+	width:400px;
+}
+#member_birthday{
+	width:400px;
+}
+#member_interests_content{
+	margin-left:40px;
+	border: 1px solid black;
+	width:420px;
+	padding:20px;	
+}
+#member_info_save button{
+	margin-left:50%;	
+	width:90px;
+}
+#bankcard_submit{
+	width:60px;
+}
+#points_submit{
+	width:60px;
+}
+.chart_bar_area{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+}
+.chart_pie_area{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+}
+#film_date_select, #film_name_select{
+	width:200px;
+}
+#enter_center{
+	position:absolute;
+	left:74%;
+	margin-top:3px;
+}
+#enter_center a{
+	text-decoration: none;
+}
+#logout{
+	font-size:13pt;
+	margin-left:20px;
+}
+#add_plan_area #hall_select{
+	width:200px;
+}
+#add_plan_area #start_time, #add_plan_area #end_time{
+	width:200px;
+}
+#add_plan_area #film_select{
+	width:300px;
+}
+#add_new_plan_item{
+	margin-top:15px;
+	width:100px;
+}
+#manager_content #plan_detail_area{
+	width:780px;
+}

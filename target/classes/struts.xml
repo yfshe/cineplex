@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="home" extends="struts-default, json-default">
+
+        <action name="loginAction" class="edu.nju.cineplex.action.login.LoginAction" method="login">
+        	<result type="redirect">home</result>
+        </action>
+        
+        <action name="login">
+        	<result>login.jsp</result>
+        </action>
+
+        <action name="registerAction" class="edu.nju.cineplex.action.login.RegisterAction" method="register">
+        	<result name="member" type="redirect">home</result>
+        	<result name="failure">error.jsp</result>
+        </action>
+
+        <action name="logout" class="edu.nju.cineplex.action.login.LogoutAction" method="logout">
+        	<result type="redirect">login</result>
+        </action>
+
+        <action name="center" class="edu.nju.cineplex.action.login.CenterAction">
+        	<result name="member" type="redirect">membercenter</result>
+        	<result name="server" type="redirect">servercenter</result>
+        	<result name="manager" type="redirect">managercenter</result>
+        </action>
+
+        <action name="home" class="edu.nju.cineplex.action.home.HomeAction">
+        	<result>index.jsp</result>
+        </action>
+
+        <action name="film" class="edu.nju.cineplex.action.home.FilmAction">
+        	<result>film.jsp</result>
+        </action>
+
+        <action name="filmlist" class="edu.nju.cineplex.action.home.FilmListAction">
+        	<result>filmlist.jsp</result>
+        </action>
+
+        <action name="filmplan" class="edu.nju.cineplex.action.home.FilmPlanAction">
+        	<result>plan.jsp</result>
+        </action>
+
+        <action name="planFilmAction" method="planFilmQuery" class="edu.nju.cineplex.action.home.FilmPlanAction">
+        	<result type="json">
+        		<param name="root">result</param>
+        	</result>
+        </action>
+
+
+        <action name="ticket" class="edu.nju.cineplex.action.home.TicketAction">
+        	<result>ticket.jsp</result>
+        </action>
+        
+        <action name="ticketAction" method="purchaseTicket" class="edu.nju.cineplex.action.home.TicketAction">
+        	<result>ticket.jsp</result>
+        </action>
+
+
+        <action name="membercenter" class="edu.nju.cineplex.action.member.MemberCenterAction">
+        	<result>member_center.jsp</result>
+        </action>
+
+        <action name="memberactivity" class="edu.nju.cineplex.action.member.ActivityAction">
+        	<result>member_activity.jsp</result>
+        </action>
+
+        <action name="memberrecords" class="edu.nju.cineplex.action.member.CostRecordsAction">
+        	<result>member_records.jsp</result>
+        </action>
+
+        <action name="recordAction" method="getRecords" class="edu.nju.cineplex.action.member.CostRecordsAction">
+        	<result type="json">
+        		<param name="root">result</param>
+        	</result>
+        </action>
+
+        <action name="memberinfo" class="edu.nju.cineplex.action.member.PersonalInfoAction">
+        	<result>member_info.jsp</result>
+        </action>
+
+        <action name="saveinfo" method="save" class="edu.nju.cineplex.action.member.PersonalInfoAction">
+        	<result>member_info.jsp</result>
+        </action>
+
+        <action name="memberrecharge" class="edu.nju.cineplex.action.member.RechargeAction">
+        	<result>member_recharge.jsp</result>
+        </action>
+
+        <action name="rechargeAction" method="recharge" class="edu.nju.cineplex.action.member.RechargeAction">
+        	<result>member_recharge.jsp</result>
+        </action>
+
+        <action name="memberlevel" class="edu.nju.cineplex.action.member.UpgradeAction">
+        	<result>member_level.jsp</result>
+        </action>
+
+        <action name="upgradeAction" method="upgrade" class="edu.nju.cineplex.action.member.UpgradeAction">
+        	<result>member_level.jsp</result>
+        </action>
+
+        <action name="managercenter" class="edu.nju.cineplex.action.manager.ManagerCenterAction">
+        	<result>manager_center.jsp</result>
+        </action>
+
+        <action name="managerplan" class="edu.nju.cineplex.action.manager.PlanAction">
+        	<result>manager_plan.jsp</result>
+        </action>
+
+        <action name="checkPlanAction" method="checkPlan" class="edu.nju.cineplex.action.manager.PlanAction">
+        	<result type="json">
+        		<param name="root">result</param>
+        	</result>
+        </action>
+
+        <action name="passPlanAction" method="passPlan" class="edu.nju.cineplex.action.manager.PlanAction">
+        	<result>manager_plan.jsp</result>
+        </action>
+
+        <action name="servercenter" class="edu.nju.cineplex.action.server.ServerCenterAction">
+        	<result>server_center.jsp</result>
+        </action>
+
+        <action name="serverplan" class="edu.nju.cineplex.action.server.PlanAction">
+        	<result>server_plan.jsp</result>
+        </action>
+
+        <action name="addPlanAction" method="addPlan" class="edu.nju.cineplex.action.server.PlanAction">
+        	<result>server_plan.jsp</result>
+        </action>
+
+        <action name="serveractivity" class="edu.nju.cineplex.action.server.ActivityAction">
+        	<result>server_activity.jsp</result>
+        </action>
+
+        <action name="addActivityAction" method="addActivity" class="edu.nju.cineplex.action.server.ActivityAction">
+        	<result>server_activity.jsp</result>
+        </action>
+
+        <action name="servermember" class="edu.nju.cineplex.action.server.MemberAction">
+        	<result>server_membInfo.jsp</result>
+        </action>
+        
+        <action name="memberstatistic" class="edu.nju.cineplex.action.manager.MemberStatisticAction">
+        	<result>memberStatistic.jsp</result>
+        </action>
+
+        <action name="revenuestatistic" class="edu.nju.cineplex.action.manager.RevenueStatisticAction">
+        	<result>revenueStatistic.jsp</result>
+        </action>
+
+        <action name="usagestatistic" class="edu.nju.cineplex.action.manager.UsageStatisticAction">
+        	<result>usageStatistic.jsp</result>
+        </action>
+
+    </package>
+
+</struts>
